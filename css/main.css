@@ -1,0 +1,240 @@
+/* Color Palette 
+	blue: #00aeef;
+	yellow: #fff200;
+	pink: #ec008c;
+	dark pink: #ad0066;
+	dark grey: #58595b;
+	medium grey: #d2d2d2;
+	light grey: #e6e6e6;
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cabin', sans-serif;
+	font-size: 10px;
+	background-color: #000;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+/* NAVIGATION STYLING */
+
+.navbar {
+	background-color:#00aeef;
+	height: 5rem;
+	box-shadow: 2px 2px 2px rgba(0,0,0, .4); 
+	z-index: 2;
+}
+
+.navbar-brand img {
+	height: 4rem;
+}
+
+.navbar a.phone {
+	font-size: 1.4rem;
+	display: block;
+	float: right;
+	color: #e6e6e6;
+	text-decoration: none;
+}
+
+.pipe {
+	font-size: 1.5rem;
+	color: #e6e6e6;
+	padding: 0 .4rem 0 .4rem;
+}
+
+.navbar a.email {
+	font-size: 1.1rem;
+	float: right;
+	color: #e6e6e6;
+	text-decoration: none;
+}
+
+/* CAROUSEL STYLING */
+
+#carouselTab {
+	height: auto;
+	overflow-y: hidden;
+}
+
+.carousel-inner img {
+	height: 100%;
+	width: auto;
+}
+
+/* INTRO CTA STYLING */
+
+.introCTA {
+	height: auto;
+	background-color: #58595b;
+	margin: 0 auto;
+	padding: 1rem 0 1rem 0; 
+}
+
+.introCTA .container {
+	text-align: center;
+}
+
+.introCTA h4 {
+	color: #d2d2d2;
+	font-family: 'Cabin', sans-serif;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.introCTA a {
+	font-size: 1.6rem;
+	margin-top: 0;
+	text-decoration: none;
+	color: #fff200;
+}
+
+/* BUSINESS INTRO STYLING */
+
+.businessIntro {
+	height: auto;
+	padding: 3rem 0 3rem 0;
+	text-align: center;
+	background: rgb(151,151,151);
+    background: -moz-linear-gradient(45deg, rgb(151,151,151) 35%, rgb(213,213,213) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(151,151,151) 35%,rgb(213,213,213) 100%);
+    background: linear-gradient(45deg, rgb(151,151,151) 35%,rgb(213,213,213) 100%);
+
+}	
+
+.introItem {
+	padding: 0;
+}
+
+.introItem img {
+	padding-bottom: 1rem;
+}
+
+.introItem h3 {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 500;
+	color: #58595b;
+}
+
+.introItem p {
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	color: #58595b;
+}
+
+/* PRODUCT SELECTION STYLING */
+
+.productSelection {
+	height: auto;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: #00aeef;
+	background-image: url(../assets/productbackground.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-blend-mode: soft-light;
+}
+
+.product {
+	padding: .5rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.productSelection h2 {
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 2.4rem;
+	color: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+
+.product h3 {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #fff;
+	padding: 1rem 0 .2rem 0;
+}
+
+.product p {
+	margin: 0 auto;
+	padding: 0 .1rem .5rem .1rem;
+	width: 90%;
+	font-size: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+}
+
+/* CONTACT STYLING */
+
+.contact {
+	background: rgb(196,0,116);
+    background: -moz-linear-gradient(45deg, rgb(196,0,116) 26%, rgb(236,0,140) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(196,0,116) 26%,rgb(236,0,140) 100%);
+    background: linear-gradient(45deg, rgb(196,0,116) 26%,rgb(236,0,140) 100%);
+	padding: 2rem 0 2rem 0;
+}
+
+.contactCircle {
+	text-align: center;
+}
+
+.contactInfo {
+	text-align: center;
+	height: auto;
+}
+
+.contactInfo h2 {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 2.4rem;
+	color: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.contactInfo a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.9rem;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-2x {
+	margin: 0 auto;
+	display: block;
+	color: #ad0066;
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+	height: 3.5rem;
+	background-color: #58595b;
+}
+
+footer img {
+	margin-top: .5rem;
+	height: 2.5rem;
+}
+
+footer p {
+	float: right;
+	margin-top: 1rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+}
