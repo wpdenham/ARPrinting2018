@@ -188,11 +188,15 @@ body {
 
 .contactCircle {
 	text-align: center;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .contactInfo {
 	text-align: center;
 	height: auto;
+	margin-left: 0;
+	padding-left: 0;
 }
 
 .contactInfo h2 {
