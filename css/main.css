@@ -39,7 +39,7 @@ body {
 	text-decoration: none;
 }
 
-.pipe {
+.pipeNav {
 	font-size: 1.5rem;
 	color: #e6e6e6;
 	padding: 0 .4rem 0 .4rem;
@@ -55,7 +55,7 @@ body {
 /* CAROUSEL STYLING */
 
 #carouselTab {
-	height: auto;
+	height: 90vh;
 	overflow-y: hidden;
 }
 
@@ -77,15 +77,21 @@ body {
 	text-align: center;
 }
 
-.introCTA h4 {
+/*.introCTA h4 {
 	color: #d2d2d2;
 	font-family: 'Cabin', sans-serif;
 	font-style: italic;
 	margin-bottom: 0;
+}*/
+
+.pipeCTA {
+	font-size: 2rem;
+	color: #e6e6e6;
+	padding: 0 .4rem 0 .4rem;
 }
 
 .introCTA a {
-	font-size: 1.6rem;
+	font-size: 1.9rem;
 	margin-top: 0;
 	text-decoration: none;
 	color: #fff200;
@@ -242,3 +248,99 @@ footer p {
 	font-size: 1rem;
 	color: #fff;
 }
+
+
+/* -------- MEDIA QUERIES --------*/
+
+@media screen and (max-width: 481px){
+
+/* NAV STYLING */
+
+	.navbar {
+		background-color:#00aeef;
+		height: 3rem;
+		box-shadow: 2px 2px 2px rgba(0,0,0, .4); 
+		z-index: 2;
+	}
+
+	.navbar-brand img {
+		height: 2rem;
+	}
+
+/* CAROUSEL STYLING */
+
+	#carouselTab {
+		max-height: 30vh;
+	}
+
+	.carousel-inner img {
+		padding-top: 3rem;
+		height: 100%;
+		width: auto;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+/* INTRO CTA STYLING */
+
+	.introCTA {
+		padding: .5rem 0 .5rem 0; 
+	}
+
+	.pipeCTA {
+		font-size: 1.5rem;
+		padding: 0 .4rem 0 .4rem;
+	}
+
+	.introCTA a {
+		font-size: 1.4rem;
+		text-decoration: underline;
+	}
+
+/* BUSINESS INTRO STYLING */
+
+	.introItem p {
+		padding-bottom: 2rem;
+	}
+
+/* CONTACT SECTION STYLING */
+
+	.contactCircle img {
+		height: 20vh;
+	}
+
+	.contactInfo h2 {
+		font-size: 2.0rem;
+		padding: 1rem;
+	}
+
+	.contactInfo a {
+		text-decoration: underline;
+	}
+
+/* FOOTER STYLING */
+
+	footer {
+		height: 3.5rem;
+		background-color: #58595b;
+	}
+
+	footer img {
+		margin-top: .5rem;
+		height: 2.5rem;
+		padding-left: 1rem;
+	}
+
+	footer p {
+		padding-right: 1rem;
+	}
+
+}
+
+@media screen and (min-width: 482px) and (max-width: 760px){}
+
+@media screen and (min-width: 761px) and (max-width: 991px){}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){}
