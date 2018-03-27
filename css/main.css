@@ -77,12 +77,14 @@ body {
 	text-align: center;
 }
 
-/*.introCTA h4 {
+.introCTA h4 {
 	color: #d2d2d2;
 	font-family: 'Cabin', sans-serif;
 	font-style: italic;
+	font-size: 2rem;
+	letter-spacing: .2rem;
 	margin-bottom: 0;
-}*/
+}
 
 .pipeCTA {
 	font-size: 2rem;
