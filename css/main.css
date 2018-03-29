@@ -278,30 +278,30 @@ footer p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border-radius: 15px;
+	border-radius: 1.3rem;
 	background-color: #58595b;
 	z-index: 99;
 }
 
 .modalcontent img {
 	width: 100%;
-	border-radius: 15px 15px 0 0;
+	border-radius: 1.3rem 1.3rem 0 0;
 }
 
 .modalcontent h3 {
 	color: #fff;
-	font-size: 24px;
-	padding-left: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	font-size: 1.7rem;
+	padding-left: 2rem;
+	margin-top: 1rem;
+	margin-bottom: .25rem;
 }
 
 .modalcontent p {
 	width: 45%;
 	color: #fff;
-	font-size: 18px;
-	padding-left: 20px;
-	margin-top: 10px;
+	font-size: 1rem;
+	padding-left: 2rem;
+	margin-top: .25rem;
 }
 
 
