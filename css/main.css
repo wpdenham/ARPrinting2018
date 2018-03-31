@@ -297,11 +297,35 @@ footer p {
 }
 
 .modalcontent p {
-	width: 45%;
+	display: inline-block;
+	width: 40%;
 	color: #fff;
 	font-size: 1rem;
 	padding-left: 2rem;
 	margin-top: .25rem;
+}
+
+.modalcontent ul {
+	list-style-type: none;
+	width: 60%;
+	height: auto;
+	float: right;
+}
+
+.modalcontent li {
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin-right: 1.5rem;
+}
+
+.modalcontent li span {
+	display: block;
+	width: 100%;
+	font-size: .8rem;
+	text-align: center;
+	margin-top: .5rem;
+	color: #fff;
 }
 
 
@@ -325,7 +349,7 @@ footer p {
 /* CAROUSEL STYLING */
 
 	#carouselTab {
-		max-height: 30vh;
+		max-height: 40vh;
 	}
 
 	.carousel-inner img {
@@ -352,6 +376,10 @@ footer p {
 	.introCTA a {
 		font-size: 1.4rem;
 		text-decoration: underline;
+	}
+
+	.introCTA h4 {
+		font-size: 1rem;
 	}
 
 /* BUSINESS INTRO STYLING */
@@ -392,10 +420,275 @@ footer p {
 		padding-right: 1rem;
 	}
 
+/* MODAL STYLING */
+
+	.modalcontent {
+		width: 90vw;	
+	}
+
+	.modalcontent h3 {
+		padding-left: 1rem;
+	}
+
+	.modalcontent p {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.modalcontent ul {
+		display: none;
+	}
+
+	
+
 }
 
-@media screen and (min-width: 482px) and (max-width: 760px){}
+@media screen and (min-width: 482px) and (max-width: 760px){/* NAV STYLING */
 
-@media screen and (min-width: 761px) and (max-width: 991px){}
+	.navbar {
+		background-color:#00aeef;
+		height: 3.6rem;
+		box-shadow: 2px 2px 2px rgba(0,0,0, .4); 
+		z-index: 2;
+	}
 
-@media screen and (min-width: 992px) and (max-width: 1199px){}
+	.navbar-brand img {
+		height: 3rem;
+	}
+
+/* CAROUSEL STYLING */
+
+	#carouselTab {
+		max-height: 54vh;
+	}
+
+	.carousel-inner img {
+
+		margin-top: 3.7rem;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+/* INTRO CTA STYLING */
+
+	.introCTA {
+		padding: .5rem 0 .5rem 0; 
+	}
+
+	.pipeCTA {
+		font-size: 1.5rem;
+		padding: 0 .4rem 0 .4rem;
+	}
+
+	.introCTA h4 {
+		font-size: 1.5rem;
+	}
+
+	.introCTA a {
+		font-size: 1.4rem;
+		text-decoration: underline;
+	}
+
+/* BUSINESS INTRO STYLING */
+
+	.introItem p {
+		padding-bottom: 2rem;
+	}
+
+/* CONTACT SECTION STYLING */
+
+	.contactCircle img {
+		max-height: 40vh;
+	}
+
+
+/* MODAL STYLING */
+
+	.modalcontent {
+		width: 80vw;	
+	}
+
+	.modalcontent h3 {
+		padding-left: 1rem;
+	}
+
+	.modalcontent p {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.modalcontent ul {
+		display: none;
+	}
+
+	
+}
+
+@media screen and (min-width: 761px) and (max-width: 991px){
+	.navbar {
+		background-color:#00aeef;
+		height: 3.6rem;
+		box-shadow: 2px 2px 2px rgba(0,0,0, .4); 
+		z-index: 2;
+	}
+
+	.navbar-brand img {
+		height: 3rem;
+	}
+
+/* CAROUSEL STYLING */
+
+	#carouselTab {
+		max-height: 54vh;
+	}
+
+	.carousel-inner img {
+
+		margin-top: 3.7rem;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+/* INTRO CTA STYLING */
+
+	.introCTA {
+		padding: .5rem 0 .5rem 0; 
+	}
+
+	.pipeCTA {
+		font-size: 1.5rem;
+		padding: 0 .4rem 0 .4rem;
+	}
+
+	.introCTA h4 {
+		font-size: 1.5rem;
+	}
+
+	.introCTA a {
+		font-size: 1.4rem;
+		text-decoration: underline;
+	}
+
+/* BUSINESS INTRO STYLING */
+
+	.introItem p {
+		padding-bottom: 2rem;
+	}
+
+/* CONTACT SECTION STYLING */
+
+	.contactCircle img {
+		max-height: 60vh;
+	}
+
+
+/* MODAL STYLING */
+
+	.modalcontent {
+		width: 80vw;	
+	}
+
+	.modalcontent h3 {
+		padding-left: 1rem;
+	}
+
+	.modalcontent p {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.modalcontent ul {
+		display: none;
+	}
+
+	}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+	.navbar {
+		background-color:#00aeef;
+		height: 3.6rem;
+		box-shadow: 2px 2px 2px rgba(0,0,0, .4); 
+		z-index: 2;
+	}
+
+	.navbar-brand img {
+		height: 3rem;
+	}
+
+/* CAROUSEL STYLING */
+
+	#carouselTab {
+		max-height: 90vh;
+	}
+
+	.carousel-inner img {
+		margin-top: 3.7rem;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+/* INTRO CTA STYLING */
+
+	.introCTA {
+		padding: .5rem 0 .5rem 0; 
+	}
+
+	.pipeCTA {
+		font-size: 1.5rem;
+		padding: 0 .4rem 0 .4rem;
+	}
+
+	.introCTA h4 {
+		font-size: 1.5rem;
+	}
+
+	.introCTA a {
+		font-size: 1.4rem;
+		text-decoration: underline;
+	}
+
+/* BUSINESS INTRO STYLING */
+
+	.introItem p {
+		padding-bottom: 2rem;
+	}
+
+/* CONTACT SECTION STYLING */
+
+	.contactCircle img {
+		max-height: 60vh;
+	}
+
+
+/* MODAL STYLING */
+
+	.modalcontent {
+		width: 80vw;	
+	}
+
+	.modalcontent h3 {
+		padding-left: 1rem;
+	}
+
+	.modalcontent p {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.modalcontent ul {
+		display: none;
+	}
+
+	
+}
