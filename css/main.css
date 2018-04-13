@@ -185,6 +185,40 @@ body {
 	color: #fff;
 }
 
+.addprintservices {
+	border-top: 2px solid #fff;
+	width: auto;
+	height: auto;
+	padding-top: 2rem;
+	margin: 1rem auto 0 auto;
+}
+
+.addprintservices h4 {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	color: #fff;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+}
+
+.printservices {
+	margin: 0;
+	padding: 0;
+}
+
+.printservices ul {
+	display: block;
+	list-style-type: none;
+	font-size: 1.2rem;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.printservices ul li {
+	padding-bottom: .2rem;
+}
+
 /* CONTACT STYLING */
 
 .contact {
@@ -388,6 +422,26 @@ footer p {
 		padding-bottom: 2rem;
 	}
 
+/* ADDITIONAL PRINTING SERVICES SECTION*/
+
+	.printservices {
+		margin: 0;
+		padding: 0;
+	}
+
+	.printservices ul {
+		width: 100%;
+		display: block;
+		list-style-type: none;
+		font-size: 1.2rem;
+		color: #fff;
+		margin: 0;
+	}
+
+	.printservices ul li {
+		padding-bottom: .2rem;
+	}	
+
 /* CONTACT SECTION STYLING */
 
 	.contactCircle img {
@@ -504,6 +558,26 @@ footer p {
 		max-height: 40vh;
 	}
 
+/* ADDITIONAL PRINTING SERVICES SECTION*/
+
+	.printservices {
+		margin: 0;
+		padding: 0;
+	}
+
+	.printservices ul {
+		width: 50%;
+		display: block;
+		list-style-type: none;
+		font-size: 1.2rem;
+		color: #fff;
+		margin: 0;
+	}
+
+	.printservices ul li {
+		padding-bottom: .2rem;
+	}
+
 
 /* MODAL STYLING */
 
@@ -587,6 +661,26 @@ footer p {
 		max-height: 60vh;
 	}
 
+/* ADDITIONAL PRINTING SERVICES SECTION*/
+
+	.printservices {
+		margin: 0;
+		padding: 0;
+	}
+
+	.printservices ul {
+		width: 33%;
+		display: block;
+		list-style-type: none;
+		font-size: 1.2rem;
+		color: #fff;
+		margin: 0;
+	}
+
+	.printservices ul li {
+		padding-bottom: .2rem;
+	}
+
 
 /* MODAL STYLING */
 
@@ -662,6 +756,8 @@ footer p {
 	.introItem p {
 		padding-bottom: 2rem;
 	}
+
+
 
 /* CONTACT SECTION STYLING */
 
