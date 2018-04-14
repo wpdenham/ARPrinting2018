@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP CSS -->
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- ANIMATE.CSS -->
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <!-- FONT AWESOME SCRIPT -->
 	    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!-- GOOGLE FONTS -->
@@ -16,7 +18,7 @@
 	    <link rel="stylesheet" href="../css/main.css">
 	    <link rel="icon" href="../assets/favicon2.gif" type="image/gif" sizes="32x32">
   </head>
-  <body>
+  <body onload="expandServices()">
 
   	<!-- NAVBAR -->
 
@@ -380,9 +382,10 @@
 			</div>
 			
 			<div class="row addprintservices col-md">
-			<h4>Additional Print Services</h4>	
+			<!-- <h4>Additional Print Services</h4>	 -->
+			<button><a id="addPrintServices">Additional Print Services</a></button>
 			</div>	
-				<div class="row printservices col-sm-12">
+				<div class="row printservices col-sm-12 serviceshidden">
 					<ul>
 						
 						<li>Booklets</li>
